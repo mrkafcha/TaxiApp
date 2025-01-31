@@ -1,0 +1,16 @@
+
+
+#button {
+    background-color: #223f61;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

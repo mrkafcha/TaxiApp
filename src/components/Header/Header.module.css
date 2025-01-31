@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Lemon;
+    font-weight: 400;
+    src: url("../../../public/font/Lemon.ttf");
+}
+
+.logo {
+    margin-left: 5%;
+    font-family: Lemon, serif;
+}
+
+.header {
+    margin: 10px 10%;
+    border-radius:30px;
+    background: #ffffff;
+    /*border: black 2px solid;*/
+    height: 5%;
+    min-height: 60px;
+}
+
+.user {
+    color: #223f61;
+    padding: 10px;
+}
+
+#button {
+    background-color: #ffffff;
+    color: #223f61;
+    border: none;
+    padding: 10px;
+}

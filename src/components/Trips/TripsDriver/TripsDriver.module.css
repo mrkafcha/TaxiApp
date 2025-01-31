@@ -1,0 +1,42 @@
+.trips {
+
+    background-color: white;
+    margin: 10px 10%;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+
+#button {
+    margin:20px;
+    height: 40px;
+    width: 90px;
+    background-color: #223f61;
+    border: none;
+    font: 1.4em bold;
+}
+
+.select {
+    height: 40px;
+    margin:20px;
+    width: 90px;
+}
+
+.containerSelect {
+    display: flex;
+
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#buttonRegion {
+    margin:10px;
+    height: 40px;
+    width: 200px;
+    background-color: #223f61;
+    border: none;
+    font: 1.4em bold;
+}

@@ -1,0 +1,17 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    margin: 10px 30%;
+    border-radius: 20px;
+}
+
+#button {
+    height: 20%;
+    width: 50%;
+    margin: 20px;
+    background-color: #223f61;
+    border: none;
+}

@@ -1,0 +1,30 @@
+.trips {
+
+    background-color: white;
+    margin: 10px 10% 7% 10%;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+#button {
+    position: fixed;
+    bottom: -10px;
+    transform: translate(-50%, -50%);
+    min-height: 5%;
+    width: 30%;
+    min-width: 190px;
+    background-color: #223f61;
+    border: none;
+    border-radius: 40px;
+    font: 1.4em bold;
+}
+.containerSelect {
+    display: flex;
+    justify-content: right;
+    margin: 20px 20px;
+    width: 200px;
+}
+
+
+
+

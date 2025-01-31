@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Century Gothic Regular";
+  src: url("../public/font/centurygothic.ttf");
+}
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url("../public/font/centurygothic_bold.ttf");
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background: #b1afaf;
+  min-width: 600px;
+  font-family: "Century Gothic Regular", serif;
+}
+

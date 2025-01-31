@@ -1,0 +1,59 @@
+.trip {
+    position: relative;
+    background-color: #94b7ef;
+    padding: 30px 20px 20px 20px;
+    margin: 30px 30px 20px 30px;
+    border-radius: 20px;
+    min-height: 120px;
+    color: #223f61;
+    cursor: pointer;
+}
+
+
+
+.th {
+    font-family: "Century Gothic Bold", serif;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: auto;
+}
+
+.status_item {
+    position: absolute;
+    top: -23px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 15px 15px 0 0;
+    background-color: #223f61;
+    color: white;
+    font-size: 9px;
+    max-width: 110px;
+}
+
+.status_item::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.status_item[data-status="Поиск"]::before {
+    background-color: #ff8607; /* Цвет для статуса "поиск" */
+}
+
+.status_item[data-status="Принят"]::before {
+    background-color: #3fff00; /* Цвет для статуса "принят" */
+}
+
+.status_item[data-status="Ожидает"]::before {
+    background-color: #3fff00; /* Цвет для статуса "ожидает" */
+}
+
+.status_item[data-status="Завершен"]::before {
+    background-color: #656464; /* Цвет для статуса "завершен" */
+}

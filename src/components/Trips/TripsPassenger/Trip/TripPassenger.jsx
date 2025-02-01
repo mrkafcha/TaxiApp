@@ -51,9 +51,12 @@ const TripPassenger = ({trip}) => {
                         <br/>
                         {trip.tarif}
                     </div>
-                    <div className={style.containerButtonCancel}>
-                        <Button  id={style.buttonCancel} onClick={() => handleDeleteTrip(trip)}>Отменить</Button>
-                    </div>
+                    {trip.status !== 'Завершен' ?
+                        <div className={style.containerButtonCancel}>
+                            <Button id={style.buttonCancel} onClick={() => handleDeleteTrip(trip)}>Отменить</Button>
+                        </div>
+                        : null
+                    }
                     <div className={style.status}>
                         <Status trip={trip}/>
                     </div>

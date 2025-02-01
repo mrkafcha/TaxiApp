@@ -1,5 +1,7 @@
 import style from './TripPassenger.module.css';
 import {status} from "../../../../helpers/status.js";
+import {useDeleteTripMutation} from "../../../../store/tripApi.js";
+import {Button} from "react-bootstrap";
 
 const Status = ({trip}) => {
     switch(trip.status) {
@@ -17,6 +19,12 @@ const Status = ({trip}) => {
 };
 
 const TripPassenger = ({trip}) => {
+    const [deleteTrips] = useDeleteTripMutation();
+
+    const handleDeleteTrip = async (trip) => {
+        await deleteTrips(trip);
+    }
+
     return (
         <div>
 
@@ -42,6 +50,9 @@ const TripPassenger = ({trip}) => {
                         <span className={style.th}>Тариф:</span>
                         <br/>
                         {trip.tarif}
+                    </div>
+                    <div className={style.containerButtonCancel}>
+                        <Button  id={style.buttonCancel} onClick={() => handleDeleteTrip(trip)}>Отменить</Button>
                     </div>
                     <div className={style.status}>
                         <Status trip={trip}/>

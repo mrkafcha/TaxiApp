@@ -1,10 +1,14 @@
 # Описание
-```
-git clone 
-```
+
+# Демонстрация
+
+### [TaxiApp](https://taxi-app-swart.vercel.app/)
+
 # Установка
 ```
- $ npm ci
+ $ git clone https://github.com/mrkafcha/TaxiApp.git
 
- $ npm link
+ $ npm install
+
+ $ npm run build
 ```

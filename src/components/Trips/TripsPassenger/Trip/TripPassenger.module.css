@@ -13,6 +13,21 @@
     font-family: "Century Gothic Bold", serif;
 }
 
+.containerButtonCancel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+#buttonCancel {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: #223f61;
+    border: none;
+    font-size: small;
+}
+
 .status {
     display: flex;
     flex-direction: column;
@@ -22,7 +37,7 @@
 .status_item {
     position: absolute;
     top: -23px;
-    right: 15px;
+    right: 20px;
     padding: 5px 10px;
     border-radius: 15px 15px 0 0;
     background-color: #223f61;

@@ -9,7 +9,9 @@
     cursor: pointer;
 }
 
-
+.trip:hover {
+    background-color: #538bdf;
+}
 
 .th {
     font-family: "Century Gothic Bold", serif;

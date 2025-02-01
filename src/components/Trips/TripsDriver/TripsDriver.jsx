@@ -31,7 +31,7 @@ const filterTarifTrips = (trips, tarif) => {
 const TripsDriver = ({trips}) => {
     const { region } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
-    // const [viewCountTrips, setViewCountTrips] = useState(6);
+    // const [viewCountTrips, setViewCountTrips] = useState(5);
     const [viewTarif, setViewTariff] = useState('Все')
     const [filterTrips, setFilterTrips] = useState([]);
 
@@ -69,9 +69,9 @@ const TripsDriver = ({trips}) => {
                                 <option>Бизнес</option>
                             </Form.Select>
                             <Form.Select className={style.select}>
-                                <option>6</option>
-                                <option>12</option>
-                                <option>18</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
                             </Form.Select>
                         </div>
 

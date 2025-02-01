@@ -25,6 +25,7 @@ const filterStatusTrips = (trips, status) => {
 }
 
 const TripsPassenger = ({trips}) => {
+
     const [modalShow, setModalShow] = useState(false);
     const [viewStatus, setViewStatus] = useState('Опубликованные')
     const [filterTrips, setFilterTrips] = useState([]);
